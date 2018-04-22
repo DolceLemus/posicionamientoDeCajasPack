@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(92, 145, 134);
+}
+
+body div {
+    /* outline: 1px solid red;   se utiliza para debug, no modifica el tamaño real*/
+    /* padding: 2em; */
+    /*tamaño de una "m" mayuscula*/
+}
+
+body>div {
+    background-color: red;
+    width: 20em;
+    height: 20em;
+    padding: 5em;/* width + padding-left + padding-rigth = total_width*/
+    box-sizing: border-box; /* lo utilizas paara que no lo duplique*/
+}
+
+body>div>div {
+    background-color: rgb(150, 26, 166);
+    width: 10em;
+    height: 10em;
+}
+
+body>div>div>div {
+    background-color: yellow;
+    width: 5em;
+    height: 5em;
+    top: -5em;
+    left: -5em;
+    position: relative;
+}
