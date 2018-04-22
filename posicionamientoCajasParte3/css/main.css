@@ -22,9 +22,10 @@ body>div>div {
     height: 10em;
 }
 #flotante {
-    float: left
+    float: left;
     background-color: black;
     width: 5em;
     height: 5em;
     padding: 0em;
+    position: relative;
 }
